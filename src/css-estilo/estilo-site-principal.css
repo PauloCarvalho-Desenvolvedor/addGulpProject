@@ -1,0 +1,222 @@
+
+
+body{   
+    background-image: url(../imagens/6600674_3334896.jpg);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Bruno Ace SC', cursive;
+    color: rgb(243, 171, 171);
+}
+
+.nav {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(116, 1, 87, 0.322);
+    
+}
+
+.nav a{
+    width: 25%;
+    text-align: center;
+}
+
+.nav a:hover{
+    background-color: rgba(116, 1, 87, 0.5);
+    border-left: solid .5px rgb(243, 171, 171);
+    border-right: solid .5px rgb(243, 171, 171);
+}
+
+
+
+a{
+    text-decoration: none;
+    font-size: 15pt;
+    color: rgb(243, 171, 171);
+}
+
+h1{
+    color: rgb(243, 171, 171); 
+    margin-left: 20px;
+    font-weight: 800;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-size: 40pt;
+    text-shadow: 6px 0px 10px black, -5px 0px white;
+    letter-spacing: 9px;
+}
+
+
+.owl-dots{
+    margin-left: 50%;
+}
+
+.owl-dot{
+    width: 20px;
+    height: 20px;
+    border: solid .2px rgba(255, 255, 255, 0.5) !important;
+    background-color: rgba(122, 43, 226, 0.616) !important;
+    margin: 4px;
+}
+
+
+h2{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-bottom: 4px;
+    border-bottom: double 4px rgb(122, 43, 226);
+    
+
+}
+
+h3{
+    color: rgb(51, 1, 99);
+}
+
+h5{
+    color: rgb(51, 1, 99);
+    font-size: 16pt;
+}
+
+span{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#home1{
+    background-image: linear-gradient(to bottom, purple,pink,rgb(0, 76, 175));
+}
+
+
+.featured-item{
+    background-image: linear-gradient(to bottom, purple,pink,rgb(0, 76, 175));
+    height: 650px;
+    border: solid 1px white;
+    margin: 6px;
+}
+
+.featured-item img{
+    width: auto;
+    height: 400px;
+    overflow: hidden;
+}
+
+
+.button-item{
+    color: rgb(51, 1, 99);
+    font-weight: 800;
+    font-size: larger;
+    margin: none;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+.button-item:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    border-bottom: 2px solid purple;   
+    transition-duration: 1.5s;
+}
+
+
+#img-contato{
+    background-color: transparent;
+    margin: 0;
+    border: 0;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+
+#formulario{
+    padding: 20px;
+    margin-top: 50px;
+}
+
+#formulario .row{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#button-form{
+    font-size: 15px;
+    color: rgb(243, 171, 171);
+}
+
+#button-form:hover{
+    font-size: 15px;
+    color: rgb(51, 1, 99);
+}
+
+.social-icons li{
+    width: 25%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+
+
+.sub-footer{
+
+    background-color: rgba(116, 1, 87, 1);
+    text-align: center;
+    
+    
+}
+
+.copyright-text p{
+    padding: 8px;
+    margin: 0 ;
+    
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.modal-title{
+    font-weight: 800;
+    font-size: 14pt;
+    color: rgb(243, 171, 171);
+    letter-spacing: 4px;
+}
+
+.modal-title h5{
+    color: rgb(51, 1, 99);
+}
+
+.modal-header, .modal-footer{
+    background-color: rgba(116, 1, 87, 1);
+}
+
+.modal-body{
+    background-image: linear-gradient(to bottom, purple,pink,rgba(0, 76, 175,.2));
+}
+
+.modal-body p{
+    color: rgb(51, 1, 99);
+    font-size: 14pt;
+}
+
+@media (min-width: 768px){
+    
+}
+
+
+
+
+
+
